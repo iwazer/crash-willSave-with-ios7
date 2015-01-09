@@ -5,12 +5,7 @@ class AppDelegate
     cdq.setup
 
     foo = Foo.create(name: "name1")
-    cdq.save
-    p foo
-
-    foo.name = "name2"
     cdq.save #<= Crash iOS7
-    foo = Foo.first
     p foo
 
     rootViewController = UIViewController.alloc.init
