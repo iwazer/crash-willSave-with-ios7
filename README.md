@@ -1,0 +1,3 @@
+cdqからCoreDataいモデルのwillSaveをオーバーライドして保存前に更新日を自動設定するなどの処理をするとRubyMotion3でiOS7の場合に違うフィールドに格納しようとして落ちます。
+
+RubyMotion2ではiOS7でも落ちませんし、RubyMotion3でもiOS8では落ちません( ˘ω˘)
